@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fall Ceiling Design | Modern False Ceiling & Lighting</title>
+  <meta name="description" content="Beautiful, durable fall ceiling (false ceiling) designs with smart lighting. Free site visit & quick installation. Call/WhatsApp for a quote." />
+  <meta name="keywords" content="fall ceiling, false ceiling, gypsum ceiling, POP ceiling, ceiling design, ceiling lighting" />
+  <meta property="og:title" content="Fall Ceiling Design" />
+  <meta property="og:description" content="Modern false ceiling designs for homes, offices & showrooms." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1600&auto=format&fit=crop" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #0f172a;
+      --muted: #94a3b8;
+      --text: #e2e8f0;
+      --accent: #0ea5e9; /* sky-500 */
+      --accent-2: #22d3ee; /* cyan-400 */
+      --ring: #38bdf8;
+      --radius: 18px;
+      --shadow: 0 10px 25px rgba(2, 8, 23, 0.35);
+      --maxw: 1200px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text); background: linear-gradient(180deg, #0a0f1d 0%, #0b1220 100%);
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+    /* Header */
+    header { position: sticky; top: 0; z-index: 40; backdrop-filter: saturate(120%) blur(8px);
+      background: rgba(10, 15, 29, 0.7); border-bottom: 1px solid rgba(56, 189, 248, 0.15); }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 0; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: 0.4px; }
+    .logo {
+      width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center; 
+      background: radial-gradient(120% 120% at 30% 20%, var(--accent) 0%, #155e75 42%, #0b1220 100%);
+      box-shadow: 0 8px 20px rgba(14, 165, 233, 0.35);
+    }
+    .menu { display: flex; gap: 18px; align-items: center; }
+    .menu a { color: var(--muted); font-weight: 500; }
+    .menu a:hover { color: white; }
+    .cta { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #06121f; font-weight: 700; padding: 10px 14px; border-radius: 999px; box-shadow: var(--shadow);
+      border: none; cursor: pointer; }
+    .hamb { display: none; background: none; border: 1px solid rgba(56,189,248,0.3); color: var(--text); border-radius: 10px; padding: 8px 10px; }
+
+    /* Hero */
+    .hero { position: relative; overflow: clip; }
+    .hero-wrap { display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: 32px; padding: 48px 0 28px; }
+    .hero h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; margin: 0 0 14px; }
+    .hero p { color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.15rem); margin: 0 0 20px; }
+    .badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 28px; }
+    .badge { border: 1px solid rgba(56,189,248,0.3); color: #dbeafe; padding: 8px 12px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; }
+    .hero-card { background: linear-gradient(180deg, rgba(14, 165, 233, 0.08), rgba(34, 211, 238, 0.05)); border: 1px solid rgba(56,189,248,0.3); padding: 18px; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .hero-img { width: 100%; height: 420px; border-radius: var(--radius); object-fit: cover; border: 1px solid rgba(56,189,248,0.25); }
+
+    /* Section */
+    section { padding: 56px 0; }
+    .section-title { font-size: clamp(1.5rem, 3vw, 2rem); margin: 0 0 10px; }
+    .section-sub { color: var(--muted); margin: 0 0 26px; }
+
+    /* Services */
+    .grid { display: grid; gap: 18px; }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .card { background: var(--card); border: 1px solid rgba(56,189,248,0.18); padding: 18px; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .card h3 { margin: 10px 0 8px; }
+    .icon { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56,189,248,0.3); }
+
+    /* Gallery */
+    .gallery { display: grid; grid-template-columns: repeat(12, 1fr); gap: 10px; }
+    .gitem { border-radius: 14px; overflow: hidden; border: 1px solid rgba(56,189,248,0.2); }
+    .gitem img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .col-6 { grid-column: span 6; }
+    .col-3 { grid-column: span 3; }
+    .col-4 { grid-column: span 4; }
+
+    /* CTA band */
+    .cta-band { background: linear-gradient(90deg, rgba(14,165,233,0.15), rgba(34,211,238,0.08)); border: 1px dashed rgba(56,189,248,0.4); padding: 18px; border-radius: var(--radius); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+    /* Testimonials */
+    .avatar { width: 42px; height: 42px; border-radius: 999px; background: #082f49; display: inline-grid; place-items: center; border: 1px solid rgba(56,189,248,0.3); }
+
+    /* Contact */
+    form { display: grid; gap: 12px; }
+    input, textarea, select { width: 100%; padding: 12px 14px; background: #0b1324; color: var(--text); border: 1px solid rgba(56,189,248,0.25); border-radius: 12px; outline: none; }
+    input:focus, textarea:focus, select:focus { border-color: var(--ring); box-shadow: 0 0 0 4px rgba(56,189,248,0.15); }
+    textarea { min-height: 110px; resize: vertical; }
+    .btn { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #06121f; font-weight: 800; padding: 12px 16px; border-radius: 12px; border: none; cursor: pointer; box-shadow: var(--shadow); }
+
+    /* Footer */
+    footer { border-top: 1px solid rgba(56,189,248,0.15); padding: 28px 0 46px; color: var(--muted); }
+
+    /* Floating WhatsApp */
+    .wa { position: fixed; right: 18px; bottom: 18px; background: #22c55e; color: #06240f; padding: 12px 14px; border-radius: 999px; font-weight: 800; box-shadow: var(--shadow); z-index: 50; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero-wrap { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: 1fr 1fr; }
+      .menu { display: none; }
+      .hamb { display: inline-flex; }
+    }
+    @media (max-width: 620px) {
+      .grid-3 { grid-template-columns: 1fr; }
+      .gallery { grid-template-columns: repeat(6, 1fr); }
+      .col-6 { grid-column: span 6; }
+      .col-4 { grid-column: span 6; }
+      .col-3 { grid-column: span 3; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Fall Ceiling Design",
+    "description": "False ceiling and lighting design & installation",
+    "areaServed": "Your City",
+    "telephone": "+91-90000-00000",
+    "url": "https://yourdomain.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Your City",
+      "addressRegion": "Your State",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <div class="logo" aria-hidden="true">✨</div>
+        <span>Fall Ceiling Design</span>
+      </a>
+      <nav class="menu" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact" class="cta">Get Quote</a>
+      </nav>
+      <button class="hamb" id="openMenu" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu (simple) -->
+  <div id="mobileMenu" style="display:none; border-bottom:1px solid rgba(56,189,248,0.2); background:#0b1220;">
+    <div class="container" style="padding:10px 0; display:grid; gap:10px;">
+      <a onclick="toggleMenu()" href="#services">Services</a>
+      <a onclick="toggleMenu()" href="#gallery">Gallery</a>
+      <a onclick="toggleMenu()" href="#process">Process</a>
+      <a onclick="toggleMenu()" href="#faq">FAQs</a>
+      <a onclick="toggleMenu()" href="#contact" class="cta" style="text-align:center;">Get Quote</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <main id="top" class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <span class="badge">✦ False Ceiling Specialists</span>
+        <h1>Modern <span style="background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;">Fall Ceiling</span> Designs that Light Up Your Space</h1>
+        <p>We design & install durable gypsum/POP ceilings with hidden LED lighting. Homes, offices & showrooms. Quick timeline. Clean finish.</p>
+        <div class="badges">
+          <span class="badge">Free Site Visit</span>
+          <span class="badge">5-Year Warranty</span>
+          <span class="badge">On-Time Delivery</span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn" href="#contact">Get a Free Quote</a>
+          <a class="btn" style="background:transparent; color:#e2e8f0; border:1px solid rgba(56,189,248,0.35)" href="#gallery">View Gallery</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img class="hero-img" loading="lazy" src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1920&auto=format&fit=crop" alt="Modern living room with stylish false ceiling and lighting" />
+      </div>
+    </div>
+  </main>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-sub">End-to-end false ceiling solutions — design, materials, installation & lighting.</p>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon">🏠</div>
+          <h3>Home Ceilings</h3>
+          <p class="section-sub">Living rooms, bedrooms, kitchens & kids’ rooms with hidden LED profiles and cove lighting.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏢</div>
+          <h3>Office & Retail</h3>
+          <p class="section-sub">Acoustic panels, grid ceilings, downlights & elegant reception ceilings that impress.</p>
+        </div>
+        <div class="card">
+          <div class="icon">💡</div>
+          <h3>Lighting & Electrical</h3>
+          <p class="section-sub">Profile lights, spotlights, drivers & wiring neatly integrated into your ceiling design.</p>
+        </div>
+      </div>
+      <div class="cta-band" style="margin-top:18px;">
+        <strong>Limited-time offer:</strong>
+        <span>Free 3D concept with confirmed order · Upto 10% off for new homes</span>
+        <a href="#contact" class="btn">Book a Site Visit →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <h2 class="section-title">Recent Work</h2>
+      <p class="section-sub">A quick look at our designs. Want a custom style? Send us your inspiration!</p>
+      <div class="gallery" aria-label="Project gallery">
+        <figure class="gitem col-6">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop" alt="False ceiling with recessed lights" />
+        </figure>
+        <figure class="gitem col-3">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1560184897-ae75f418493e?q=80&w=800&auto=format&fit=crop" alt="Gypsum ceiling with cove lighting" />
+        </figure>
+        <figure class="gitem col-3">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&w=800&auto=format&fit=crop" alt="POP ceiling with spotlights" />
+        </figure>
+        <figure class="gitem col-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1000&auto=format&fit=crop" alt="Retail store false ceiling" />
+        </figure>
+        <figure class="gitem col-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1616596878573-9b6363393d7b?q=80&w=1000&auto=format&fit=crop" alt="Bedroom ceiling with LED profiles" />
+        </figure>
+        <figure class="gitem col-4">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=1000&auto=format&fit=crop" alt="Minimal office ceiling" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process">
+    <div class="container">
+      <h2 class="section-title">How It Works</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon">📞</div>
+          <h3>1) Call & Measure</h3>
+          <p class="section-sub">We visit your site, measure the area and discuss your style & budget.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧩</div>
+          <h3>2) Design & Quote</h3>
+          <p class="section-sub">You get a clear plan with materials, lighting & accurate pricing.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛠️</div>
+          <h3>3) Install & Handover</h3>
+          <p class="section-sub">Clean, on-time installation with after-service support & warranty.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faq">
+    <div class="container">
+      <h2 class="section-title">FAQs</h2>
+      <div class="grid">
+        <details class="card">
+          <summary><strong>What is the cost per sq.ft?</strong></summary>
+          <p class="section-sub">Depends on design & material. Gypsum/POP ceilings typically range from ₹80–₹140 per sq.ft in most cities. Profile lights & complex designs add extra.</p>
+        </details>
+        <details class="card">
+          <summary><strong>How long does installation take?</strong></summary>
+          <p class="section-sub">A 2BHK home usually takes 4–7 days depending on area and complexity.</p>
+        </details>
+        <details class="card">
+          <summary><strong>Do you provide warranty?</strong></summary>
+          <p class="section-sub">Yes, 5-year warranty against sagging & workmanship issues. Electrical items per brand warranty.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get a Free Quote</h2>
+      <p class="section-sub">Tell us about your space. We’ll call back within a few hours.</p>
+      <div class="grid" style="grid-template-columns: 1.1fr 0.9fr; gap: 18px;">
+        <div class="card">
+          <!-- Replace the action with your Formspree/own backend URL -->
+          <form action="https://formspree.io/f/your-id" method="POST">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+              <div>
+                <label for="name" style="display:block; margin:0 0 6px; color:var(--muted)">Full Name</label>
+                <input id="name" name="name" required placeholder="Your Name" />
+              </div>
+              <div>
+                <label for="phone" style="display:block; margin:0 0 6px; color:var(--muted)">Phone</label>
+                <input id="phone" name="phone" required placeholder="+91-" />
+              </div>
+            </div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+              <div>
+                <label for="city" style="display:block; margin:0 0 6px; color:var(--muted)">City</label>
+                <input id="city" name="city" placeholder="Your city" />
+              </div>
+              <div>
+                <label for="area" style="display:block; margin:0 0 6px; color:var(--muted)">Approx. Area (sq.ft)</label>
+                <input id="area" name="area" type="number" min="10" placeholder="e.g., 650" />
+              </div>
+            </div>
+            <div style="margin-top:12px;">
+              <label for="service" style="display:block; margin:0 0 6px; color:var(--muted)">Service</label>
+              <select id="service" name="service">
+                <option>Home False Ceiling</option>
+                <option>Office / Retail Ceiling</option>
+                <option>Lighting & Electrical</option>
+                <option>Renovation / Repair</option>
+              </select>
+            </div>
+            <div style="margin-top:12px;">
+              <label for="msg" style="display:block; margin:0 0 6px; color:var(--muted)">Message</label>
+              <textarea id="msg" name="message" placeholder="Tell us your style: modern, minimal, layered, wooden, etc."></textarea>
+            </div>
+            <button class="btn" type="submit">Send Request</button>
+          </form>
+        </div>
+        <aside class="card">
+          <h3>Contact Details</h3>
+          <p class="section-sub" style="margin-top:6px;">Call/WhatsApp: <a href="tel:+919000000000">+91 90000 00000</a><br>Email: <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></p>
+          <div style="height:1px; background: rgba(56,189,248,0.2); margin:14px 0"></div>
+          <h3>Why Choose Us?</h3>
+          <ul style="color:var(--muted); line-height:1.8; padding-left:18px;">
+            <li>Experienced team with 200+ projects</li>
+            <li>Premium gypsum & branded lights</li>
+            <li>Transparent pricing & timeline</li>
+            <li>Neat, dust-controlled work</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;">
+      <small>© <span id="year"></span> Fall Ceiling Design. All rights reserved.</small>
+      <small>Designed with ❤️ by You.</small>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp (replace number) -->
+  <a class="wa" href="https://wa.me/919000000000?text=Hi%20I%20want%20a%20false%20ceiling%20quote" target="_blank" rel="noopener">WhatsApp Us</a>
+
+  <script>
+    // Mobile menu toggle
+    function toggleMenu(){
+      const m = document.getElementById('mobileMenu');
+      m.style.display = (m.style.display === 'none' || !m.style.display) ? 'block' : 'none';
+    }
+    document.getElementById('openMenu').addEventListener('click', toggleMenu);
+
+    // Current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
